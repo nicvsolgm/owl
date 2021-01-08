@@ -1,1 +1,1 @@
-web: gunicorn myowl.wsgi
+web: gunicorn myowl.wsgi --log-file -
